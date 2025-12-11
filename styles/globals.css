@@ -1,0 +1,22 @@
+/* 1. Importamos la fuente Inter (incluyendo el grosor 900 para el título grande) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  /* 2. Aplicamos la fuente y el fondo blanco globalmente */
+  font-family: 'Inter', sans-serif;
+  @apply bg-white text-gray-900 antialiased;
+}
+
+/* Forzamos negritas en los encabezados */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold text-black;
+}
