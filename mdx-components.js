@@ -1,15 +1,15 @@
-import { HeroSection } from './components/HeroSection';
-import { TwoColumns } from './components/TwoColumns';
-import { SectionTransition } from './components/SectionTransition';
-import { ArticleCard } from './components/ArticleCard';
-import BigTitle from './components/BigTitle';
-import OurEcoSystem from "./components/OurEcoSystem";
-import WeAreHero from "./components/WeAreHero";
-import WeAreSecondSection from "./components/WeAreSecondSection";
-import CoFounders from "./components/CoFounders";
-import EcosystemLogos from "./components/EcosystemLogos";
-import CoreElements from './components/CoreElements';
-import OurCoreElements from './components/OurCoreElements';
+import { HeroSection } from './Flowershow/components/HeroSection';
+import { TwoColumns } from './Flowershow/components/TwoColumns';
+import { SectionTransition } from './Flowershow/components/SectionTransition';
+import { ArticleCard } from './Flowershow/components/ArticleCard';
+import BigTitle from './Flowershow/components/BigTitle';
+import OurEcoSystem from "./Flowershow/components/OurEcoSystem";
+import WeAreHero from "./Flowershow/components/WeAreHero";
+import WeAreSecondSection from "./Flowershow/components/WeAreSecondSection";
+import CoFounders from "./Flowershow/components/CoFounders";
+import EcosystemLogos from "./Flowershow/components/EcosystemLogos";
+import CoreElements from './Flowershow/components/CoreElements';
+import OurCoreElements from './Flowershow/components/OurCoreElements';
 
 export function useMDXComponents(components) {
   return {
