@@ -1,0 +1,16 @@
+# Next.js
+.next/
+out/
+
+# Dependencies
+node_modules/
+
+# Obsidian
+.obsidian/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+# Env
+.env*

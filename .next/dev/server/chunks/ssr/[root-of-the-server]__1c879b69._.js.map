@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/USUARIO/Documents/GitHub/CambioNatural_FS_Obs/pages/_app.js"],"sourcesContent":["import '../styles/globals.css'\r\n// Asegúrate de importar tu Layout si lo tienes en otra carpeta, \r\n// por ejemplo: import Layout from '../components/Layout'\r\n// Si el Layout está definido en este mismo archivo o es global, omite el import.\r\n\r\nfunction MyApp({ Component, pageProps }) {\r\n  return (\r\n    // Si usas un componente <Layout>, déjalo aquí. Si no, borra las etiquetas <Layout>\r\n    <Layout>\r\n      {/* CAMBIO: Usamos <div> porque <p> no puede contener otros bloques de texto */}\r\n      <div className=\"text-xl md:text-2xl text-gray-800 font-medium\">\r\n        <Component {...pageProps} />\r\n      </div>\r\n    </Layout>\r\n  )\r\n}\r\n\r\nexport default MyApp"],"names":[],"mappings":";;;;;;;AACA,iEAAiE;AACjE,yDAAyD;AACzD,iFAAiF;AAEjF,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAE;IACrC,OACE,mFAAmF;kBACnF,qKAAC;kBAEC,cAAA,qKAAC;YAAI,WAAU;sBACb,cAAA,qKAAC;gBAAW,GAAG,SAAS;;;;;;;;;;;;;;;;AAIhC;uCAEe"}}]
-}
