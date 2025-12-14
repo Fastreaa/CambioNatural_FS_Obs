@@ -1,19 +1,17 @@
-import nextMDX from '@next/mdx';
-
-const withMDX = nextMDX({
-  extension: /\.mdx?$/,
-  options: {
-    remarkPlugins: [],
-    rehypePlugins: [],
-  },
-});
+import createMDX from "@next/mdx";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Esta línea es la que permite que Next.js lea archivos .md como páginas
-  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
-  reactStrictMode: true,
+  output: "export",
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
+  pageExtensions: ["js", "jsx", "mdx"],
 };
 
-// Exportamos la configuración envuelta en withMDX
+const withMDX = createMDX({
+  extension: /\.mdx$/,
+});
+
 export default withMDX(nextConfig);
