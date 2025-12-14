@@ -1,14 +1,45 @@
 import React from 'react';
+import Image from 'next/image';
 
-export const BigTitle = ({ subtitle, maintitle }) => {
-  return (
-    <div className="w-full py-24 text-center px-4">
-      <p className="text-blue-500 font-bold tracking-widest text-sm md:text-base mb-2 uppercase">
-        {subtitle}
-      </p>
-      <h2 className="text-6xl md:text-8xl font-black text-blue-500 uppercase tracking-tighter">
-        {maintitle}
-      </h2>
-    </div>
+const isImagePath = (maintitle) => {
+  return typeof maintitle === 'string' && (
+    maintitle.includes('/') ||
+    maintitle.endsWith('.png') ||
+    maintitle.endsWith('.jpg')
   );
 };
+
+function BigTitle({ subtitle, maintitle }) {
+
+  const isImageCta = isImagePath(maintitle);
+
+  return (
+    <div className="text-center py-24 lg:py-36 max-w-2xl mx-auto px-4"> 
+      
+      {!isImageCta && subtitle && (
+        <h3 className="text-lg font-bold text-gray-500 uppercase tracking-widest mb-2">
+          {subtitle}
+        </h3>
+      )}
+
+      {isImageCta ? (
+        <div className="w-full relative mx-auto" style={{ height: 'auto' }}>
+          <Image
+            src={maintitle}
+            alt="Call to Action: TOGETHER"
+            width={600}
+            height={180}
+            className="w-full h-auto"
+            priority
+          />
+        </div>
+      ) : (
+        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+          {maintitle}
+        </h2>
+      )}
+    </div>
+  );
+}
+
+export default BigTitle;

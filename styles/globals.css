@@ -1,5 +1,6 @@
-/* 1. Importamos la fuente Inter (incluyendo el grosor 900 para el título grande) */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
+/* 1. IMPORTACIÓN DE FUENTE: Traemos los pesos 800 (ExtraBold) y 900 (Black) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,16 +8,30 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-rgb: 255, 255, 255;
+  --background-rgb: 253, 252, 246;
 }
 
 body {
-  /* 2. Aplicamos la fuente y el fondo blanco globalmente */
+  /* 2. FONDO Y FUENTE BASE */
+  background-color: #FDFCF6; /* El color crema de tu diseño */
+  color: #111111;            /* Texto casi negro */
   font-family: 'Inter', sans-serif;
-  @apply bg-white text-gray-900 antialiased;
+  
+  /* Suavizado de fuente para que se vea nítida en pantallas modernas */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Forzamos negritas en los encabezados */
+/* 3. FORZADO DE ESTILO "BLOQUE" PARA TÍTULOS */
+/* Esto hace que cualquier h1, h2, etc. se vea grueso y apretado automáticamente */
 h1, h2, h3, h4, h5, h6 {
-  @apply font-bold text-black;
+  font-weight: 900;       /* Black (El más grueso) */
+  letter-spacing: -0.04em; /* Tracking negativo (letras pegaditas) */
+  color: black;
+}
+
+/* Opcional: Color de selección amarillo (como tus puntos) */
+::selection {
+  background-color: #FACC15; /* yellow-400 */
+  color: black;
 }
