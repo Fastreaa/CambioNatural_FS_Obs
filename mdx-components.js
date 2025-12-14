@@ -26,21 +26,13 @@ export function useMDXComponents(components) {
     CoreElements,
     OurCoreElements,
 
+    p: ({ children }) => <>{children}</>,
 
 
-
-    // TÍTULOS BASE (sin color)
     h2: ({ children }) => (
       <h2 className="font-dela font-black uppercase">
         {children}
       </h2>
-    ),
-
-    // PÁRRAFOS BASE (sin color)
-    p: ({ children }) => (
-      <p className="font-inter">
-        {children}
-      </p>
     ),
 
     ...components,

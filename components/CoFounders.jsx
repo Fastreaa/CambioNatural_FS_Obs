@@ -18,7 +18,7 @@ const founders = [
   {
     name: "Marcelo Llamas",
     role: "LinkedIn",
-    img: "/assets/images/together.png" // fallback or replace with correct foto if you have another
+    img: "/assets/images/marcelo.png" // fallback or replace with correct foto if you have another
   },
 ];
 

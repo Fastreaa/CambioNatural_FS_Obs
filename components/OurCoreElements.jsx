@@ -7,7 +7,7 @@ export default function OurCoreElements({ children }) {
 
         {/* Título */}
         <h2 className="font-dela text-4xl font-black uppercase mb-24">
-          Our core elements
+          OUR CORE ELEMENTS
         </h2>
 
         {/* Lista */}
