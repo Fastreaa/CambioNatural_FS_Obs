@@ -1,9 +1,5 @@
-<div>
-  <script>
-    window.location.replace("./index.html");
-  </script>
+# Cambio Natural
 
-  <noscript>
-    <a href="./index.html">Go to site</a>
-  </noscript>
-</div>
+👉 **[Entrar al sitio web](./index.html)**
+
+Si el enlace no abre automáticamente, haz clic arriba.
