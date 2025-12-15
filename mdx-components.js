@@ -1,7 +1,7 @@
-import  HeroSection  from './components/HeroSection';
-import  TwoColumns  from './components/TwoColumns';
-import  SectionTransition  from './components/SectionTransition';
-import  ArticleCard  from './components/ArticleCard';
+import { HeroSection } from './components/HeroSection';
+import { TwoColumns } from './components/TwoColumns';
+import { SectionTransition } from './components/SectionTransition';
+import { ArticleCard } from './components/ArticleCard';
 import BigTitle from './components/BigTitle';
 import OurEcoSystem from "./components/OurEcoSystem";
 import WeAreHero from "./components/WeAreHero";
