@@ -1,5 +1,10 @@
+import Layout from "../components/Layout";
 import Page from "./tools.mdx";
 
 export default function Tools() {
-  return <Page />;
+  return (
+    <Layout>
+      <Page />
+    </Layout>
+  );
 }

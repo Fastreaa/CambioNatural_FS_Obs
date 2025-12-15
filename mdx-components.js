@@ -10,6 +10,8 @@ import CoFounders from "./components/CoFounders";
 import EcosystemLogos from "./components/EcosystemLogos";
 import CoreElements from './components/CoreElements';
 import OurCoreElements from './components/OurCoreElements';
+import { ToolsHero } from './components/ToolsHero';
+import ToolsSection from './components/ToolsSection';
 
 export function useMDXComponents(components) {
   return {
@@ -25,6 +27,9 @@ export function useMDXComponents(components) {
     EcosystemLogos,
     CoreElements,
     OurCoreElements,
+    ToolsHero,
+    ToolsSection,
+    
 
     p: ({ children }) => <>{children}</>,
 

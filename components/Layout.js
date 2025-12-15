@@ -13,7 +13,7 @@ export default function Layout({ children }) {
   const backgroundMap = {
     "/": "bg-[#f8f4e9]", // Ejemplo: fondo beige del home
     "/we-are": "bg-[#F90068]", // Rosa fuerte de tu referencia
-    "/tools": "bg-white",
+    "/tools": "bg-[#EED30F]", // Amarillo de ToolsHero
     "/mediaclub": "bg-white",
     "/gatherings": "bg-white",
   };
