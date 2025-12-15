@@ -8,7 +8,7 @@ const founders = [
   {
     name: "Cesar Jerónimo",
     role: "LinkedIn",
-    img: "/assets/images/cesar esquinca fhotoweb white.png",
+    img: "/assets/images/cesar.png",
   },
   {
     name: "Blaga",
