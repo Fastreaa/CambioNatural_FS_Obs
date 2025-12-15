@@ -1,0 +1,101 @@
+import { HeroSection } from '../components/HeroSection'
+import { SectionTransition } from '../components/SectionTransition'
+import BigTitle from '../components/BigTitle'
+import { TwoColumns } from '../components/TwoColumns'
+import { ArticleCard } from '../components/ArticleCard'
+
+<HeroSection
+  title={
+    <div>
+      <span className="font-inter font-normal">
+        ¿How do we meet and collaborate to lead towards agre
+      </span>
+      <br />
+      <span className="font-dela font-normal">
+        desirable future for all and the planet?
+      </span>
+    </div>
+  }
+/>
+
+<SectionTransition
+  text={
+    <div>
+      <span className="font-inter font-normal">
+        We are collaborative supporting
+      </span>
+      <br />
+      <span className="font-dela font-normal">
+        bridge builders...
+      </span>
+    </div>
+  }
+  imageSrc="/assets/images/econdmainphoto.png"
+/>
+
+<BigTitle
+  maintitle="/assets/images/together.png"
+/>
+
+<TwoColumns>
+
+  <div className="row-span-2 text-left">
+    <h3 className="
+        text-2xl md:text-3xl
+        font-black
+        font-dela
+        uppercase
+        mb-6
+        tracking-tight
+      ">
+      CROSS-SECTOR COLLABORATION FRAMEWORK
+    </h3>
+
+    {/* Cambié <p> por <div> para evitar anidamiento de <p> */}
+    <div className="text-lg md:text-xl text-gray-800 leading-relaxed">
+      Developed a Cross-sector Collaboration Management Framework and Toolkit for TeamUp, a cross-sectoral initiative supporting young people in rural Uganda that has enabled youth leaders, local government, civil society, NGOs and private companies to come together and engage in a purposeful way guided by common values and principles.
+    </div>
+  </div>
+
+  <div className="text-left">
+    <h3 className="
+        text-2xl md:text-3xl
+        font-black
+        font-dela
+        uppercase
+        mb-6
+        tracking-tight
+      ">
+      SINGLE SECTOR INITIATIVE
+    </h3>
+
+    <div className="text-lg md:text-xl text-gray-800 leading-relaxed">
+      A Cross-sector Collaboration Management Framework and Toolkit for TeamUp, a cross-sectoral initiative supporting.
+    </div>
+  </div>
+
+  <div className="text-left">
+    <h3 className="
+        text-2xl md:text-3xl
+        font-black
+        font-dela
+        uppercase
+        mb-6
+        tracking-tight
+      ">
+      CROSS-SECTOR COLLABORATION
+    </h3>
+
+    <div className="text-lg md:text-xl text-gray-800 leading-relaxed">
+      A Cross-sector Collaboration Management Framework and Toolkit for TeamUp.
+    </div>
+  </div>
+  
+</TwoColumns>
+
+<ArticleCard
+  category="Article"
+  title="Meta-Crisis the crisis of all the crisis"
+  description="Have you ever thought about how each crisis is connected? There's a critical point that detonates and interconnects crisis in each context..."
+  imageSrc="/assets/images/meta-crisis.png"
+/>
