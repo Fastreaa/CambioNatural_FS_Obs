@@ -14,7 +14,7 @@ export const HeroSection = ({ title }) => {
       {/* Imagen de fondo */}
       <div className="absolute inset-0 w-full h-full z-0">
         <Image
-          src="/assets/images/Group592.png"
+          src="/assets/images/Group 592.png"
           alt="Fondo decorativo"
           fill
           priority
