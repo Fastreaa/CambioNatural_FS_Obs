@@ -3,7 +3,7 @@ import React from "react";
 
 export default function WeAreSecondSection({ children }) {
   return (
-    <section className="w-screen bg-[#F90068] py-0">
+    <section className="w-full bg-[#F90068] py-0">
       <div
         className="
           max-w-7xl mx-auto px-8
@@ -12,7 +12,7 @@ export default function WeAreSecondSection({ children }) {
         "
       >
         {/* Placeholder imagen */}
-        <div className="w-full h-[420px] bg-gray-300 rounded-3xl" />
+        <div className="w-full h-[620px] bg-gray-300 rounded-3xl" />
 
         {/* Texto inyectado desde MDX */}
      <div
