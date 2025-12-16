@@ -7,7 +7,7 @@ export default function ToolsSection({ children }) {
     <section className="relative w-full bg-[#EED30F] py-80 overflow-hidden">
 
       {/* FONDO DECORATIVO – CUADRÍCULA */}
-      <div className="absolute left-10 top-[0rem] z-0 w-[420px] opacity-100">
+      <div className="absolute left-10 top-[2rem] z-0 w-[420px] opacity-100">
         <Image
           src="/assets/images/cuadriculablanco.png"
           alt=""
@@ -21,7 +21,7 @@ export default function ToolsSection({ children }) {
       {/* CONTENIDO */}
      <div className="relative z-10 max-w-[1400px] mx-auto px-8">
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
 
           {/* TEXTO */}
           <div
@@ -44,7 +44,7 @@ export default function ToolsSection({ children }) {
 
           {/* CARD GRIS */}
           <div className="flex justify-end">
-            <div className="w-[360px] h-[260px] rounded-3xl bg-[#E6E6E6]" />
+            <div className="w-[460px] h-[360px] rounded-3xl bg-[#E6E6E6]" />
           </div>
 
         </div>

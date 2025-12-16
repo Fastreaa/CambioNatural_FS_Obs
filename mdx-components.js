@@ -12,6 +12,9 @@ import CoreElements from './components/CoreElements';
 import OurCoreElements from './components/OurCoreElements';
 import { ToolsHero } from './components/ToolsHero';
 import ToolsSection from './components/ToolsSection';
+import { ToolsCardsSection } from "./components/ToolsCardsSection";
+import { ToolsCard } from "./components/ToolsCard";
+
 
 export function useMDXComponents(components) {
   return {
@@ -29,7 +32,8 @@ export function useMDXComponents(components) {
     OurCoreElements,
     ToolsHero,
     ToolsSection,
-    
+    ToolsCardsSection,
+    ToolsCard,
 
     p: ({ children }) => <>{children}</>,
 
