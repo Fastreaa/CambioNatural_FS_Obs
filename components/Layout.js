@@ -40,7 +40,7 @@ export default function Layout({ children }) {
       </div>
     </Link>
 
-    <ul className="flex flex-wrap justify-center gap-6 md:gap-8 font-gothic text-xs tracking-widest uppercase">
+    <ul className="flex flex-wrap justify-center gap-6 md:gap-8 font-dela text-1rem tracking-widest uppercase">
       <li><Link href="/tools">Tools</Link></li>
       <li><Link href="/mediaclub">MediaClub</Link></li>
       <li><Link href="/gatherings">Gatherings</Link></li>
