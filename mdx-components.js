@@ -14,6 +14,7 @@ import { ToolsHero } from './components/ToolsHero';
 import ToolsSection from './components/ToolsSection';
 import { ToolsCardsSection } from "./components/ToolsCardsSection";
 import { ToolsCard } from "./components/ToolsCard";
+import { ToolsClosingSection } from "./components/ToolsClosingSection"; 
 
 
 export function useMDXComponents(components) {
@@ -34,7 +35,10 @@ export function useMDXComponents(components) {
     ToolsSection,
     ToolsCardsSection,
     ToolsCard,
+    ToolsClosingSection,
 
+
+    
     p: ({ children }) => <>{children}</>,
 
 

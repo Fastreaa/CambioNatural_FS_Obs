@@ -2,7 +2,7 @@
 
 export function ToolsHero({ children }) {
   return (
-    <section className="w-full  bg-[#EED30F] py-32">
+    <section className="w-full  bg-[#EED30F] py-48">
       <div className="container mx-auto px-6 max-w-5xl text-black">
 
         {/* Wrapper tipográfico */}
@@ -14,12 +14,12 @@ export function ToolsHero({ children }) {
           items-center
 
           [&_.tools-normal]:font-inter
-          [&_.tools-normal]:text-3x1
-          [&_.tools-normal]:md:text-3xl
+          [&_.tools-normal]:text-4x1
+          [&_.tools-normal]:md:text-4xl
 
           [&_.tools-highlight]:font-gothic
-          [&_.tools-highlight]:text-3xl
-          [&_.tools-highlight]:md:text-3xl
+          [&_.tools-highlight]:text-4xl
+          [&_.tools-highlight]:md:text-4xl
           [&_.tools-highlight]:font-black
         "
         >
