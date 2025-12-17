@@ -15,6 +15,13 @@ import ToolsSection from './components/ToolsSection';
 import { ToolsCardsSection } from "./components/ToolsCardsSection";
 import { ToolsCard } from "./components/ToolsCard";
 import { ToolsClosingSection } from "./components/ToolsClosingSection"; 
+import GatheringsHero from './components/GatheringsHero'
+import GatheringsIntro from './components/GatheringsIntro';
+import SingleSectorSection from './components/SingleSectorSection';  
+import GatheringsListSection from "./components/GatheringsListSection";
+import GatheringsListItem from "./components/GatheringsListItem";
+import UpcomingEventsSection from "./components/UpcomingEventsSection";
+import UpcomingEventItem from "./components/UpcomingEventItem";
 
 
 export function useMDXComponents(components) {
@@ -36,9 +43,17 @@ export function useMDXComponents(components) {
     ToolsCardsSection,
     ToolsCard,
     ToolsClosingSection,
+    GatheringsHero,
+    GatheringsIntro,
+    SingleSectorSection,
+    GatheringsListSection,
+    GatheringsListItem,
+    UpcomingEventsSection,
+    UpcomingEventItem,
 
 
-    
+
+
     p: ({ children }) => <>{children}</>,
 
 

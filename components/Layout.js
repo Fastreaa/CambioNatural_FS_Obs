@@ -15,7 +15,7 @@ export default function Layout({ children }) {
     "/we-are": "bg-[#F90068]", // Rosa fuerte de tu referencia
     "/tools": "bg-[#EED30F]", // Amarillo de ToolsHero
     "/mediaclub": "bg-white",
-    "/gatherings": "bg-white",
+    "/gatherings": "bg-[#0A6CFF]",
   };
 
   const activeBg = backgroundMap[router.pathname] || "bg-white";

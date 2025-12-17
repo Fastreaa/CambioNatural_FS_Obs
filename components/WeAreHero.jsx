@@ -58,8 +58,7 @@ export default function WeAreHero({ children }) {
           leading-[1]
           font-inter
           
-          /* Estilos para el texto grande (lo aplicas en el MDX) */
-          /* Aquí puedes añadir clases para el div contenedor si lo necesitas */
+         
         "
       >
         {children}
