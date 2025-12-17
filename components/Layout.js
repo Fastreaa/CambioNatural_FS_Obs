@@ -11,7 +11,7 @@ export default function Layout({ children }) {
 
   // 🎨 Fondos automáticos según la página
   const backgroundMap = {
-    "/": "bg-[#f8f4e9]", // Ejemplo: fondo beige del home
+    "/": "bg-[#ffffff]", // fondo blanco para la home
     "/we-are": "bg-[#F90068]", // Rosa fuerte de tu referencia
     "/tools": "bg-[#EED30F]", // Amarillo de ToolsHero
     "/mediaclub": "bg-white",
