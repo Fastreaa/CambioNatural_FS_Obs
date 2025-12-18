@@ -8,7 +8,7 @@ export const HeroSection = ({ title }) => {
       className="
         w-screen relative left-1/2 -translate-x-1/2
         py-48 lg:py-[24rem]
-        bg-[#FDFCF6]
+        bg-[#ffffff]
       "
     >
       {/* Imagen de fondo */}

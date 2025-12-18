@@ -12,7 +12,7 @@ import CoreElements from './components/CoreElements';
 import OurCoreElements from './components/OurCoreElements';
 import { ToolsHero } from './components/ToolsHero';
 import ToolsSection from './components/ToolsSection';
-import { ToolsCardsSection } from "./components/ToolsCardsSection";
+import ToolsCardsSection from "./components/ToolsCardsSection";
 import { ToolsCard } from "./components/ToolsCard";
 import { ToolsClosingSection } from "./components/ToolsClosingSection"; 
 import GatheringsHero from './components/GatheringsHero'
@@ -22,6 +22,11 @@ import GatheringsListSection from "./components/GatheringsListSection";
 import GatheringsListItem from "./components/GatheringsListItem";
 import UpcomingEventsSection from "./components/UpcomingEventsSection";
 import UpcomingEventItem from "./components/UpcomingEventItem";
+import MediaClubFeatureSection from "./components/MediaClubFeatureSection";
+import MediaClubQuoteSection from "./components/MediaClubQuoteSection";
+import MediaClubGridSection from "./components/MediaClubGridSection";
+
+
 
 
 export function useMDXComponents(components) {
@@ -50,7 +55,9 @@ export function useMDXComponents(components) {
     GatheringsListItem,
     UpcomingEventsSection,
     UpcomingEventItem,
-
+    MediaClubFeatureSection,
+    MediaClubQuoteSection,
+    MediaClubGridSection,
 
 
 

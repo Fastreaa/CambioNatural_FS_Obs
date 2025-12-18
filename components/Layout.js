@@ -14,7 +14,7 @@ export default function Layout({ children }) {
     "/": "bg-[#ffffff]", // fondo blanco para la home
     "/we-are": "bg-[#F90068]", // Rosa fuerte de tu referencia
     "/tools": "bg-[#EED30F]", // Amarillo de ToolsHero
-    "/mediaclub": "bg-white",
+    "/mediaclub": "bg-[#17BA4F]",
     "/gatherings": "bg-[#0A6CFF]",
   };
 
