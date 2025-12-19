@@ -57,8 +57,8 @@ export default function Layout({ children }) {
       </main>
 
       {/* FOOTER */}
-      <footer className="py-10 border-t border-gray-200 mt-auto w-full bg-inherit">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-bold text-gray-400 uppercase tracking-wide">
+      <footer className="py-10 border-t border-blck mt-auto w-full bg-inherit">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-bold text-black uppercase tracking-wide">
           <span>© {BUILD_YEAR} Cambio Natural</span>
 
           <div className="flex gap-6">
