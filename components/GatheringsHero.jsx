@@ -6,7 +6,7 @@ export default function GatheringsHero({ children }) {
       className="
         
         w-full
-        min-h-[80vh]
+        min-h-[70vh]
         bg-[#0A6CFF]
         overflow-hidden
         flex

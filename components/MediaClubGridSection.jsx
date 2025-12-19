@@ -23,7 +23,7 @@ export default function MediaClubGridSection({ children }) {
               className="
                 w-full
                 h-[260px]
-                bg-gray-200
+                bg-transparent
                 rounded-2xl
                 overflow-hidden
 

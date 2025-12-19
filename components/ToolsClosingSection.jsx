@@ -12,9 +12,9 @@ export function ToolsClosingSection({ children }) {
 
             [&_.tools-body]:text-left
             [&_.tools-body]:font-inter
-            [&_.tools-body]:text-[2rem]
+            [&_.tools-body]:text-2xl
             [&_.tools-body]:leading-relaxed
-            [&_.tools-body]:max-w-3xl
+            [&_.tools-body]:max-w-2xl
 
             [&_.tools-title]:font-dela
             [&_.tools-title]:font-black
@@ -31,7 +31,7 @@ export function ToolsClosingSection({ children }) {
           className="
             tools-footer
             font-inter
-            text-[2rem]
+            text-2xl
             text-center
           "
         >

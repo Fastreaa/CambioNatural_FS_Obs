@@ -21,13 +21,13 @@ export default function SingleSectorSection({ children }) {
 
             [&>div>span]:block
             [&>div>span]:font-inter
-            [&>div>span]:text-4xl
+            [&>div>span]:text-3xl
             [&>div>span]:leading-relaxed
 
             /* Título */
             [&>div>span:first-child]:font-dela
             [&>div>span:first-child]:uppercase
-            [&>div>span:first-child]:text-4xl
+            [&>div>span:first-child]:text-3xl
             [&>div>span:first-child]:leading-tight
             [&>div>span:first-child]:mb-6
           "
@@ -41,12 +41,12 @@ export default function SingleSectorSection({ children }) {
 
             [&>div>span]:block
             [&>div>span]:font-inter
-            [&>div>span]:text-4xl
+            [&>div>span]:text-3xl
             [&>div>span]:leading-relaxed
 
             [&>div>span:first-child]:font-dela
             [&>div>span:first-child]:uppercase
-            [&>div>span:first-child]:text-4xl
+            [&>div>span:first-child]:text-3xl
             [&>div>span:first-child]:leading-tight
             [&>div>span:first-child]:mb-6
           "

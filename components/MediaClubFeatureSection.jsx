@@ -80,7 +80,7 @@ export default function MediaClubFeatureSection({ children }) {
         {/* Card derecha */}
         <div
           className="
-            bg-white
+            bg-transparent
             rounded-3xl
             p-8
             relative

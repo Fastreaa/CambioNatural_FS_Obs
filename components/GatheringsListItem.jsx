@@ -15,7 +15,7 @@ export default function GatheringsListItem({ children }) {
         className="
           h-[420px]
           w-[320px]
-          bg-gray-200
+          bg-transparent
           rounded-2xl
           overflow-hidden
 

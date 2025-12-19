@@ -37,14 +37,14 @@ export default function OurCoreElements({ children }) {
             /* Primer span = título */
             [&>div>div>span:first-child]:block
             [&>div>div>span:first-child]:font-dela
-            [&>div>div>span:first-child]:text-[2.3rem]
+            [&>div>div>span:first-child]:text-3xl
             [&>div>div>span:first-child]:leading-tight
             [&>div>div>span:first-child]:mb-6
 
             /* Demás spans = cuerpo */
             [&>div>div>span:not(:first-child)]:block
             [&>div>div>span:not(:first-child)]:font-inter
-            [&>div>div>span:not(:first-child)]:text-lg
+            [&>div>div>span:not(:first-child)]:text-3xl
             [&>div>div>span:not(:first-child)]:text-gray-700
             [&>div>div>span:not(:first-child)]:max-w-md
           "

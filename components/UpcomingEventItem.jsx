@@ -15,7 +15,7 @@ export default function UpcomingEventItem({ children }) {
         className="
           w-[390px]
           h-[320px]
-          bg-gray-200
+          bg-transparent
           rounded-3xl
           overflow-hidden
 

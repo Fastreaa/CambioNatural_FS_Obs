@@ -37,7 +37,7 @@ export const ArticleCard = ({ category, title, description, imageSrc }) => {
         </div>
 
         {/* Imagen Derecha */}
-        <div className="h-64 md:h-96 w-full bg-gray-300 rounded-3xl overflow-hidden relative">
+        <div className="h-64 md:h-96 w-full bg-transparent rounded-3xl overflow-hidden relative">
           {imageSrc && (
             <Image
               src={imageSrc}
