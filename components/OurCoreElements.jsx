@@ -28,7 +28,7 @@ export default function OurCoreElements({ children }) {
 
             /* IMÁGENES */
             [&>div>img]:w-full
-            [&>div>img]:max-w-[320px]
+            [&>div>img]:max-w-[420px]
             [&>div>img]:h-auto
 
             /* TEXTO */
@@ -44,7 +44,7 @@ export default function OurCoreElements({ children }) {
             /* Demás spans = cuerpo */
             [&>div>div>span:not(:first-child)]:block
             [&>div>div>span:not(:first-child)]:font-inter
-            [&>div>div>span:not(:first-child)]:text-3xl
+            [&>div>div>span:not(:first-child)]:text-2xl
             [&>div>div>span:not(:first-child)]:text-gray-700
             [&>div>div>span:not(:first-child)]:max-w-md
           "

@@ -12,7 +12,7 @@ export default function WeAreSecondSection({ children }) {
         "
       >
         {/* Placeholder imagen */}
-        <div className="w-full h-[620px] bg-gray-300 rounded-3xl" />
+        <div className="w-full h-[620px] bg-transparent rounded-3xl" />
 
         {/* Texto inyectado desde MDX */}
      <div

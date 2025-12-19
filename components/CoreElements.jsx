@@ -18,12 +18,12 @@ export default function CoreElements({ children }) {
             [&>div>p]:font-inter
             [&>div>p]:text-white
             [&>div>p]:text-2xl
-            [&>div>p]:leading-relaxed
+            [&>div>p]:leading-1
             [&>div>p]:mb-4
 
             [&>div>a]:font-inter
             [&>div>a]:text-white
-            [&>div>a]:text-2xl
+            [&>div>a]:text-1xl
             [&>div>a]:underline
           "
         >

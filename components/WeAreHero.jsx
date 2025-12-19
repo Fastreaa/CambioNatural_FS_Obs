@@ -7,10 +7,10 @@ export default function WeAreHero({ children }) {
      <section
       className="
         relative w-screen left-1/2 -translate-x-1/2
-        min-h-screen
+        h-auto min-h-[75vh]
         bg-[#F90068]
-        /* CORREGIDO: Alineación superior e izquierda */
-        flex items-start justify-start 
+
+         flex items-start justify-start 
         overflow-hidden
         py-24
         px-8
@@ -51,7 +51,7 @@ export default function WeAreHero({ children }) {
           mx-auto
           w-full 
           /* Posición alta */
-          mt-[14vh] 
+          mt-[12vh] 
           
           /* Aplicamos estilos base que se heredarán */
           text-[2rem]
